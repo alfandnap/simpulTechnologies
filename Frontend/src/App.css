@@ -1,0 +1,66 @@
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column; 
+  height: 60%;
+  overflow-y: scroll;
+  padding: 0 20px;
+  margin: 15% auto 0 auto;
+  width: 80%;
+}
+
+.message-right {
+  background-color: #2fad2f; 
+  padding: 8px;
+  border-radius: 8px;
+  margin: 4px;
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+.message-left {
+  background-color: #0078d4; 
+  padding: 8px;
+  border-radius: 8px;
+  margin: 4px;
+  max-width: 70%;
+  align-self: flex-start;
+}
+
+.messageFrom {
+  height: 10%;
+  width: 100%;
+}
+
+.messageInput {
+  height: 40px;
+  width: 80%;
+}
+
+.messageButton {
+  height: 46px;
+  width: 10%;
+  border: 2px solid #4CAF50;
+  padding: 1px 2px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.messageHeader {
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
